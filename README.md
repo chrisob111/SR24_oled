@@ -27,7 +27,14 @@ Weiterhin kann optional ein GPS-Modul angeschlossen werden. Folgende zusätliche
 
 # Teileliste
 
-Hier ist der angeforderte Beispieltext mit HTML-Formatierung:
+- Raspberry Pico 1
+- Waveshare 0.91 OLED
+- optional: Taster
+- optional: M5Stack GPS 1.1 (oder ein beliebig anderes GPS- Modul !!!Achtung!!! Baud-Rate ggf. anpassen)
+
+
+
+
 
 <div align="center">
   <h3>Willkommen beim SR24 Dashboard</h3>
