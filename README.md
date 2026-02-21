@@ -13,3 +13,5 @@ Hier ist der angeforderte Beispieltext mit HTML-Formatierung:
     Er ist zentriert und enthält einen <a href="https://github.com/olikraus/u8g2">Link zur u8g2 Bibliothek</a>.
   </p>
 </div>
+
+![Dashboard Screenshot](raw/Screenshot%202026-02-21%20214236.png)
