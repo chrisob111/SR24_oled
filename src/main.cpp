@@ -101,9 +101,10 @@ public:
         bool isValid() { return valid; }
     } time;
     struct {
-        double val; bool valid;
+        double val; bool valid; uint32_t last_updated;
         double kmph() { return val * 1.852; } // Knoten in km/h
-        bool isValid() { return valid; }
+        // Gültig nur wenn Flag gesetzt UND Daten nicht älter als 1.2 Sekunden (Minimum für 1Hz GPS)
+        bool isValid() { return valid && (to_ms_since_boot(get_absolute_time()) - last_updated < 1200); }
     } speed;
     struct {
         int value; bool valid;
@@ -154,6 +155,7 @@ public:
             if (fix && tokens[7][0]) {
                 speed.val = atof(tokens[7]);
                 speed.valid = true;
+                speed.last_updated = to_ms_since_boot(get_absolute_time());
             } else {
                 speed.valid = false;
             }
@@ -379,9 +381,9 @@ void update_vehicle_display() {
     
     // Wenn GPS-Geschwindigkeit gültig ist, diese verwenden, sonst VCU
     int display_speed = vcu_speed;
-    if (gps.speed.isValid()) {
-        display_speed = (int)gps.speed.kmph();
-    }
+    // if (gps.speed.isValid()) {
+    //     display_speed = (int)gps.speed.kmph();
+    // }
     draw_number_fixed(display_speed, 55, 32, 2);
     
     // Zurück zu kleinerer Schrift für den Rest (tf für erweiterten Zeichensatz inkl. Grad)
@@ -403,14 +405,11 @@ void update_vehicle_display() {
     w = u8g2_GetStrWidth(&u8g2, time_str);
     u8g2_DrawStr(&u8g2, 128 - w, 12, time_str);
     
-    // Satellitenanzahl rechts unten (klein)
-    if (gps.satellites.isValid()) {
-        //u8g2_SetFont(&u8g2, u8g2_font_5x7_tr);
-        char sat_buf[8];
-        snprintf(sat_buf, sizeof(sat_buf), "%d", gps.satellites.count());
-        int w_sat = u8g2_GetStrWidth(&u8g2, sat_buf);
-        u8g2_DrawStr(&u8g2, 128 - w_sat, 32, sat_buf);
-    }
+    // BMS SOC rechts unten
+    char soc_buf[8];
+    snprintf(soc_buf, sizeof(soc_buf), "%d%%", bms_soc / 10);
+    int w_soc = u8g2_GetStrWidth(&u8g2, soc_buf);
+    u8g2_DrawStr(&u8g2, 128 - w_soc, 32, soc_buf);
     }
 
     u8g2_SendBuffer(&u8g2);
