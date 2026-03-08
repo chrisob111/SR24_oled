@@ -21,7 +21,7 @@
 7005	7461	7933947576327950	CMakeFiles/u8g2.dir/C_/Users/Christian/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_clocks/clocks.c.obj	87f179e8853ca61f
 1778	2156	7933947524066152	CMakeFiles/u8g2.dir/.pio/libdeps/pico/U8g2/src/clib/u8x8_d_ch1120.c.obj	1f80add5d614279f
 3040	3304	7933947536686531	CMakeFiles/u8g2.dir/.pio/libdeps/pico/U8g2/src/clib/u8x8_d_sh1106_72x40.c.obj	312cd2f60bb4be50
-533	922	7933948676174283	C:/Users/Christian/Documents/PlatformIO/Projects/SR24_oled/build/SR24_OLED.uf2	833f837b7fdb3ccb
+2406	4301	7942757046238243	C:/Users/Christian/Documents/PlatformIO/Projects/SR24_oled/build/SR24_OLED.uf2	833f837b7fdb3ccb
 309	438	7933947510551066	pico-sdk/src/rp2040/boot_stage2/bs2_default_padded_checksummed.S	232fa3d9990ff2b9
 471	798	7933947510986164	CMakeFiles/u8g2.dir/.pio/libdeps/pico/U8g2/src/clib/u8g2_box.c.obj	9922e42d532fa56d
 453	835	7933947510809103	CMakeFiles/u8g2.dir/.pio/libdeps/pico/U8g2/src/clib/u8g2_arc.c.obj	2e864283411f38c2
@@ -46,7 +46,7 @@
 1700	2097	7933947523281044	CMakeFiles/u8g2.dir/.pio/libdeps/pico/U8g2/src/clib/u8x8_d_a2printer.c.obj	e3971290eab3bbf4
 2073	2677	7933947527015702	CMakeFiles/u8g2.dir/.pio/libdeps/pico/U8g2/src/clib/u8x8_d_hd44102.c.obj	eeb4c24746c4dfe8
 2952	3324	7933947535805921	CMakeFiles/u8g2.dir/.pio/libdeps/pico/U8g2/src/clib/u8x8_d_sbn1661.c.obj	3104a41f8f20968e
-533	922	7933948676174283	SR24_OLED.bin	833f837b7fdb3ccb
+2406	4301	7942757046238243	SR24_OLED.bin	833f837b7fdb3ccb
 10965	11729	7933947615925056	CMakeFiles/SR24_OLED.dir/C_/Users/Christian/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/host/usbh.c.obj	2f9bf880e40d9a48
 4854	5346	7933947554819267	CMakeFiles/u8g2.dir/.pio/libdeps/pico/U8g2/src/clib/u8x8_d_st7586s_jlx384160.c.obj	873bd943253386a9
 859	1281	7933947514873166	CMakeFiles/u8g2.dir/.pio/libdeps/pico/U8g2/src/clib/u8g2_input_value.c.obj	4797e0d2bec7da2
@@ -77,7 +77,7 @@
 2380	2756	7933947530081319	CMakeFiles/u8g2.dir/.pio/libdeps/pico/U8g2/src/clib/u8x8_d_ist7920.c.obj	c78f06fa5a37c582
 2098	2765	7933947527256738	CMakeFiles/u8g2.dir/.pio/libdeps/pico/U8g2/src/clib/u8x8_d_il3820_296x128.c.obj	b2243331ecd75d04
 2756	3070	7933947533836389	CMakeFiles/u8g2.dir/.pio/libdeps/pico/U8g2/src/clib/u8x8_d_pcf8812.c.obj	cff3060c136306a1
-533	922	7933948676174283	SR24_OLED.uf2	833f837b7fdb3ccb
+2406	4301	7942757046238243	SR24_OLED.uf2	833f837b7fdb3ccb
 2521	2856	7933947531484516	CMakeFiles/u8g2.dir/.pio/libdeps/pico/U8g2/src/clib/u8x8_d_lc7981.c.obj	a7c09749b6caf08b
 2429	2865	7933947530570941	CMakeFiles/u8g2.dir/.pio/libdeps/pico/U8g2/src/clib/u8x8_d_ks0108.c.obj	856c0d82fb38bc5
 3070	3416	7933947536975792	CMakeFiles/u8g2.dir/.pio/libdeps/pico/U8g2/src/clib/u8x8_d_sh1107.c.obj	881858fea86d0a98
@@ -96,7 +96,7 @@
 3304	3624	7933947539313003	CMakeFiles/u8g2.dir/.pio/libdeps/pico/U8g2/src/clib/u8x8_d_ssd1306_2040x16.c.obj	38dd88d51bd24a51
 4010	4312	7933947546383467	CMakeFiles/u8g2.dir/.pio/libdeps/pico/U8g2/src/clib/u8x8_d_ssd1326.c.obj	4bd882fffe57b795
 9670	10048	7933947602972610	CMakeFiles/SR24_OLED.dir/C_/Users/Christian/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_boot_lock/boot_lock.c.obj	400e13b7c95fa6cb
-533	922	7933948676174283	C:/Users/Christian/Documents/PlatformIO/Projects/SR24_oled/build/SR24_OLED.hex	833f837b7fdb3ccb
+2406	4301	7942757046238243	C:/Users/Christian/Documents/PlatformIO/Projects/SR24_oled/build/SR24_OLED.hex	833f837b7fdb3ccb
 3259	3643	7933947538870441	CMakeFiles/u8g2.dir/.pio/libdeps/pico/U8g2/src/clib/u8x8_d_ssd1305.c.obj	dc423395a8d93
 3282	3722	7933947539101464	CMakeFiles/u8g2.dir/.pio/libdeps/pico/U8g2/src/clib/u8x8_d_ssd1306_128x32.c.obj	a88f001619aaed8b
 3491	3749	7933947541196588	CMakeFiles/u8g2.dir/.pio/libdeps/pico/U8g2/src/clib/u8x8_d_ssd1306_64x48.c.obj	f48722d73a3ccc4f
@@ -199,7 +199,7 @@
 6867	7270	7933947574945712	CMakeFiles/u8g2.dir/C_/Users/Christian/.pico-sdk/sdk/2.2.0/src/common/pico_util/pheap.c.obj	bcf6606003f369c4
 6660	7292	7933947572882675	CMakeFiles/u8g2.dir/C_/Users/Christian/.pico-sdk/sdk/2.2.0/src/common/pico_time/time.c.obj	5a74d601229da440
 7049	7302	7933947576763352	CMakeFiles/u8g2.dir/C_/Users/Christian/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_vreg/vreg.c.obj	910b96d5f9fcf795
-533	922	7933948676174283	SR24_OLED.elf	833f837b7fdb3ccb
+2406	4301	7942757046238243	SR24_OLED.elf	833f837b7fdb3ccb
 6989	7322	7933947576168482	CMakeFiles/u8g2.dir/C_/Users/Christian/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_uart/uart.c.obj	7d658f77a77ce60d
 11205	11816	7933947618333802	CMakeFiles/SR24_OLED.dir/C_/Users/Christian/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/tusb.c.obj	25d727fd15eed51b
 7038	7367	7933947576663684	CMakeFiles/u8g2.dir/C_/Users/Christian/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_pll/pll.c.obj	d49cbe3f0a3e7080
@@ -230,7 +230,7 @@
 8293	8588	7933947589209481	pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_library.dir/bs2_default_padded_checksummed.S.obj	df1b83f1bd286140
 8132	8667	7933947587604813	CMakeFiles/u8g2.dir/C_/Users/Christian/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_stdio/stdio.c.obj	3a6aeb46ca116a98
 8118	8699	7933947587465281	CMakeFiles/u8g2.dir/C_/Users/Christian/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_clib_interface/newlib_interface.c.obj	2617fc4a9ef840c9
-55	532	7933948667579724	CMakeFiles/SR24_OLED.dir/src/main.cpp.obj	29fe24dcde86a9f9
+60	2405	7942757003853931	CMakeFiles/SR24_OLED.dir/src/main.cpp.obj	29fe24dcde86a9f9
 8424	8912	7933947590518601	CMakeFiles/SR24_OLED.dir/C_/Users/Christian/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_gpio/gpio.c.obj	59614b6694fe99ef
 8640	8938	7933947592683501	CMakeFiles/SR24_OLED.dir/C_/Users/Christian/.pico-sdk/sdk/2.2.0/src/common/hardware_claim/claim.c.obj	23ca8cfbba9fb6cc
 8598	8986	7933947592257108	CMakeFiles/SR24_OLED.dir/C_/Users/Christian/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_platform_panic/panic.c.obj	fbd7f1dfe6352965
@@ -273,17 +273,7 @@
 11328	11684	7933947619562793	CMakeFiles/SR24_OLED.dir/C_/Users/Christian/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_unique_id/unique_id.c.obj	e0bfec3252ce9769
 11259	11717	7933947618878685	CMakeFiles/SR24_OLED.dir/C_/Users/Christian/.pico-sdk/sdk/2.2.0/lib/tinyusb/hw/bsp/rp2040/family.c.obj	3dfd6a2b99e60008
 11416	11846	7933947620442129	CMakeFiles/SR24_OLED.dir/C_/Users/Christian/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_flash/flash.c.obj	7cc246362a20c593
-533	922	7933948676174283	SR24_OLED.dis	833f837b7fdb3ccb
-533	922	7933948676174283	SR24_OLED.hex	833f837b7fdb3ccb
-533	922	7933948676174283	C:/Users/Christian/Documents/PlatformIO/Projects/SR24_oled/build/SR24_OLED.dis	833f837b7fdb3ccb
-533	922	7933948676174283	C:/Users/Christian/Documents/PlatformIO/Projects/SR24_oled/build/SR24_OLED.bin	833f837b7fdb3ccb
-60	2405	7942757003853931	CMakeFiles/SR24_OLED.dir/src/main.cpp.obj	29fe24dcde86a9f9
-2406	4301	7942757046238243	SR24_OLED.elf	833f837b7fdb3ccb
 2406	4301	7942757046238243	SR24_OLED.dis	833f837b7fdb3ccb
 2406	4301	7942757046238243	SR24_OLED.hex	833f837b7fdb3ccb
-2406	4301	7942757046238243	SR24_OLED.bin	833f837b7fdb3ccb
-2406	4301	7942757046238243	SR24_OLED.uf2	833f837b7fdb3ccb
 2406	4301	7942757046238243	C:/Users/Christian/Documents/PlatformIO/Projects/SR24_oled/build/SR24_OLED.dis	833f837b7fdb3ccb
-2406	4301	7942757046238243	C:/Users/Christian/Documents/PlatformIO/Projects/SR24_oled/build/SR24_OLED.hex	833f837b7fdb3ccb
 2406	4301	7942757046238243	C:/Users/Christian/Documents/PlatformIO/Projects/SR24_oled/build/SR24_OLED.bin	833f837b7fdb3ccb
-2406	4301	7942757046238243	C:/Users/Christian/Documents/PlatformIO/Projects/SR24_oled/build/SR24_OLED.uf2	833f837b7fdb3ccb
