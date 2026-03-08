@@ -56,14 +56,3 @@ Im Ordner /build findet ihr die Datei: SR24_OLED.uf2 Diese Datei muss einfach nu
 # Bedienung
 
 Kurzes Drücken auf den Taster schaltet die Bildschirme durch. Wird der Taster für mindestens 2 Sekunden gehalten, geht der Pico in den Bootmodus, sodass er wieder als Massenspeichergerät am PC erkannt wird. So kann überarbeitete Software hochgeladen werden, ohne dass man an die BOOTSEL Taste vom Pico muss.
-
-
-<div align="center">
-  <h3>Willkommen beim SR24 Dashboard</h3>
-  <p>
-    Dieser Text wurde mit <strong>HTML-Tags</strong> formatiert.<br>
-    Er ist zentriert und enthält einen <a href="https://www.berrybase.de/raspberry-pi-pico-rp2040-mikrocontroller-board">Link zur u8g2 Bibliothek</a>.
-  </p>
-</div>
-
-
