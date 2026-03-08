@@ -56,3 +56,10 @@ Im Ordner /build findet ihr die Datei: SR24_OLED.uf2 Diese Datei muss einfach nu
 # Bedienung
 
 Kurzes Drücken auf den Taster schaltet die Bildschirme durch. Wird der Taster für mindestens 2 Sekunden gehalten, geht der Pico in den Bootmodus, sodass er wieder als Massenspeichergerät am PC erkannt wird. So kann überarbeitete Software hochgeladen werden, ohne dass man an die BOOTSEL Taste vom Pico muss.
+
+# Beispielhafte Umsetzung
+
+Im Beispiel wurde das Display an die Stelle der Leerlaufanzeige integriert und sämtliche Bauteile im SR50 Tacho integriert.
+
+![Gesamtansicht](raw/Gesamtansicht.jpeg)
+![Integration](raw/Integration.jpeg)
