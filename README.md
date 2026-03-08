@@ -8,6 +8,7 @@ Folgende Daten werden auf dem Display dargestellt:
 - Geschwindigkeit
 - Akkutemperatur
 - Restreichweite
+- Akkustand
 
 Optional kann ein Taster angeschlossen werden, um weitere Bildschirmausgaben durchschalten zu können
 
@@ -32,8 +33,8 @@ Weiterhin kann optional ein GPS-Modul angeschlossen werden. Folgende zusätliche
 - optional: M5Stack GPS 1.1 (oder ein beliebig anderes GPS- Modul !!!Achtung!!! Baud-Rate ggf. anpassen)
 
 Hier sind beispielhaft die Links zu den Teilen, die ich verbaut habe: 
-<a 
-href="https://www.berrybase.de/raspberry-pi-pico-rp2040-mikrocontroller-board">Raspberry Pico</a>
+
+<a href="https://www.berrybase.de/raspberry-pi-pico-rp2040-mikrocontroller-board">Raspberry Pico</a>
 
 <a href="https://www.berrybase.de/0.91-128x32-oled-display-modul-einfarbig-weiss-i2c-interface">Waveshare 0.91 OLED</a>
 
